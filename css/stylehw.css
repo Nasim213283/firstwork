@@ -1,0 +1,189 @@
+:root {
+    --primary-btn-background-color:rgb(229, 84,115 ,1);
+    --primary-btn-background-hover-color:rgb(229, 84,115 ,0.8);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.container { 
+    max-width: 1440px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    vertical-align: middle;
+}
+.text-center {
+    text-align: center;
+}
+.btn{
+    background-color: var(--primary-btn-background-color);
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+.bnt:hover{
+    cursor: pointer;
+    background-color: var(--primary-btn-background-hover-color)
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-48 {
+    margin-bottom: 48px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+
+.flex {
+    display: flex;
+}
+.aling-item-center {
+    align-items: center;
+}
+header{
+    background-color:rgb(229, 84,115, 0.1);
+    padding-top: 50px;
+}
+.left,
+.right {
+    max-width: 50%;
+}
+.right{
+    padding-left:  24px;
+}
+.left h2 {
+    font-size: 80px;
+}
+.description-text {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.featured {
+    padding-top:178px;
+    padding-bottom: 128px;
+}
+.featured .flex {
+gap: 24px;
+align-items: flex-end;
+}
+.featured .flower-container {
+   width: calc((100% - 48px) / 3);
+}
+.featured .flower-container a{
+    display: block;
+color: #272727;
+}
+.featured .flower-container img{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15); 
+    padding:48px 20px 0;
+   height:538px;
+}
+.featured .flower-container.one img{
+    padding: 120px 60px 0;
+}
+.featured .flower-container.two img {
+padding-top: 120px;
+padding-bottom: 41px;
+background: rgba(5, 151, 160, 0.15);
+
+}
+.featured .flower-container.three img{
+    padding: 120px 60px 0;
+    background: rgba(71, 125, 17, 0.15);
+ }
+ @media (max-width:1200px){
+    .featured .flower-container {
+        width: calc((100% - 48px) / 3);
+        max-width: 464px;
+    }
+ }
+@media (max-width:1200px) {
+    .left h2 {
+        font-size: 60px;
+    }
+    }
+@media (max-width:980px) {
+    .left h2 {
+        font-size: 48px;
+    }
+}
+@media (max-width:784px) {
+    .left  {
+       flex-direction: column;
+    }
+    .left,.right {
+        max-width: 100%;
+    }
+}
+.kahine{
+   padding-top: 128px;
+   padding-bottom: 128px;
+}
+.mb-100 {
+    margin-bottom: 100px;
+}
+.pngwing {
+    width: 200;
+    height: auto;
+}
+.coustomer-service {
+    margin: 128px 0;
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05); 
+    padding-top: 195px;
+    padding-bottom: 128px;
+}
+.flower {
+    padding-top: 128x;
+    padding-bottom: 128px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    
+}
+.flower-shop {
+    justify-content: space-between;
+    padding-top: 128px;
+    padding-bottom: 132px;
+}
+.mb-24 {
+    margin-bottom: 24px;
+}
+.mb-32 {
+    margin-bottom: 32px;
+}
+.divclass { 
+    height: 449px; 
+    background: #111010; 
+}
+.flowershop {
+    margin-bottom: 128px;
+}
+.age {
+    padding: 128px 0;
+    color: #fff;
+}
+.age h2 {
+    font-size: 48px;
+}
+spam {
+    color: #E55473; 
+}
